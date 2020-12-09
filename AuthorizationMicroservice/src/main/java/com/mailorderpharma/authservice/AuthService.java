@@ -6,10 +6,10 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class AuthorizationMicroserviceApplication {
+public class AuthService {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AuthorizationMicroserviceApplication.class, args);
+		SpringApplication.run(AuthService.class, args);
 	}
 
 //	@SuppressWarnings({ "rawtypes", "unchecked" })
